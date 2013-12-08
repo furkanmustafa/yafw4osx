@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2BC21A10ECDD6F00CC5C36 /* portNames.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BC21910ECDD6F00CC5C36 /* portNames.cpp */; };
+		3DB8B7AA10E77E770070342D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7A710E77E770070342D /* main.m */; };
+		3DB8B7AB10E77E770070342D /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8B7A810E77E770070342D /* Main.xib */; };
+		3DB8B7C110E77EBF0070342D /* application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7AF10E77EBF0070342D /* application.cpp */; };
+		3DB8B7C210E77EBF0070342D /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7B110E77EBF0070342D /* client.cpp */; };
+		3DB8B7C310E77EBF0070342D /* cookie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7B310E77EBF0070342D /* cookie.cpp */; };
+		3DB8B7C410E77EBF0070342D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8B7B510E77EBF0070342D /* InfoPlist.strings */; };
+		3DB8B7C510E77EBF0070342D /* firewall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7B710E77EBF0070342D /* firewall.cpp */; };
+		3DB8B7C710E77EBF0070342D /* messages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7BA10E77EBF0070342D /* messages.cpp */; };
+		3DB8B7C810E77EBF0070342D /* rule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7BC10E77EBF0070342D /* rule.cpp */; };
+		3DB8B7C910E77EBF0070342D /* simpleBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7BE10E77EBF0070342D /* simpleBase.cpp */; };
+		3DB8B7CA10E77EBF0070342D /* watch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7C010E77EBF0070342D /* watch.cpp */; };
+		3DB8B7D510E77F310070342D /* Console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7D310E77F310070342D /* Console.cpp */; };
+		3DB8B7D610E77F600070342D /* ServerConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B7A310E77E3F0070342D /* ServerConnection.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D2BC21810ECDD6F00CC5C36 /* portNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portNames.h; sourceTree = "<group>"; };
+		3D2BC21910ECDD6F00CC5C36 /* portNames.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = portNames.cpp; sourceTree = "<group>"; };
+		3DB8B77210E77C7E0070342D /* Watch.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Watch.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB8B78A10E77D6F0070342D /* ConsoleTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB8B79310E77D9E0070342D /* AppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB8B7A110E77E3F0070342D /* bundleid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bundleid.h; sourceTree = "<group>"; };
+		3DB8B7A210E77E3F0070342D /* messageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageType.h; sourceTree = "<group>"; };
+		3DB8B7A310E77E3F0070342D /* ServerConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServerConnection.cpp; sourceTree = "<group>"; };
+		3DB8B7A410E77E3F0070342D /* ServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerConnection.h; sourceTree = "<group>"; };
+		3DB8B7A610E77E770070342D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB8B7A710E77E770070342D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DB8B7A810E77E770070342D /* Main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		3DB8B7AF10E77EBF0070342D /* application.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = application.cpp; sourceTree = "<group>"; };
+		3DB8B7B010E77EBF0070342D /* application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = application.h; sourceTree = "<group>"; };
+		3DB8B7B110E77EBF0070342D /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = client.cpp; sourceTree = "<group>"; };
+		3DB8B7B210E77EBF0070342D /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		3DB8B7B310E77EBF0070342D /* cookie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cookie.cpp; sourceTree = "<group>"; };
+		3DB8B7B410E77EBF0070342D /* cookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cookie.h; sourceTree = "<group>"; };
+		3DB8B7B610E77EBF0070342D /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DB8B7B710E77EBF0070342D /* firewall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = firewall.cpp; sourceTree = "<group>"; };
+		3DB8B7B810E77EBF0070342D /* firewall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firewall.h; sourceTree = "<group>"; };
+		3DB8B7B910E77EBF0070342D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB8B7BA10E77EBF0070342D /* messages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = messages.cpp; sourceTree = "<group>"; };
+		3DB8B7BB10E77EBF0070342D /* messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messages.h; sourceTree = "<group>"; };
+		3DB8B7BC10E77EBF0070342D /* rule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rule.cpp; sourceTree = "<group>"; };
+		3DB8B7BD10E77EBF0070342D /* rule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rule.h; sourceTree = "<group>"; };
+		3DB8B7BE10E77EBF0070342D /* simpleBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simpleBase.cpp; sourceTree = "<group>"; };
+		3DB8B7BF10E77EBF0070342D /* simpleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpleBase.h; sourceTree = "<group>"; };
+		3DB8B7C010E77EBF0070342D /* watch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = watch.cpp; sourceTree = "<group>"; };
+		3DB8B7D310E77F310070342D /* Console.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Console.cpp; sourceTree = "<group>"; };
+		3DB8B7D410E77F310070342D /* Console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Console.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB8B77010E77C7E0070342D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB8B78810E77D6F0070342D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB8B79110E77D9E0070342D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DB8B76310E77C0C0070342D = {
+			isa = PBXGroup;
+			children = (
+				3DB8B7D210E77F310070342D /* ConsoleTest */,
+				3DB8B7AE10E77EBF0070342D /* Kext */,
+				3DB8B7A510E77E770070342D /* AppTest */,
+				3DB8B7A010E77E3F0070342D /* Shared */,
+				3DB8B77310E77C7E0070342D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB8B77310E77C7E0070342D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8B77210E77C7E0070342D /* Watch.kext */,
+				3DB8B78A10E77D6F0070342D /* ConsoleTest */,
+				3DB8B79310E77D9E0070342D /* AppTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB8B7A010E77E3F0070342D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8B7A110E77E3F0070342D /* bundleid.h */,
+				3DB8B7A210E77E3F0070342D /* messageType.h */,
+				3DB8B7A310E77E3F0070342D /* ServerConnection.cpp */,
+				3DB8B7A410E77E3F0070342D /* ServerConnection.h */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3DB8B7A510E77E770070342D /* AppTest */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8B7A610E77E770070342D /* Info.plist */,
+				3DB8B7A710E77E770070342D /* main.m */,
+				3DB8B7A810E77E770070342D /* Main.xib */,
+			);
+			path = AppTest;
+			sourceTree = "<group>";
+		};
+		3DB8B7AE10E77EBF0070342D /* Kext */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8B7AF10E77EBF0070342D /* application.cpp */,
+				3DB8B7B010E77EBF0070342D /* application.h */,
+				3DB8B7B110E77EBF0070342D /* client.cpp */,
+				3DB8B7B210E77EBF0070342D /* client.h */,
+				3DB8B7B310E77EBF0070342D /* cookie.cpp */,
+				3DB8B7B410E77EBF0070342D /* cookie.h */,
+				3DB8B7B510E77EBF0070342D /* InfoPlist.strings */,
+				3DB8B7B710E77EBF0070342D /* firewall.cpp */,
+				3DB8B7B810E77EBF0070342D /* firewall.h */,
+				3DB8B7B910E77EBF0070342D /* Info.plist */,
+				3DB8B7BA10E77EBF0070342D /* messages.cpp */,
+				3DB8B7BB10E77EBF0070342D /* messages.h */,
+				3DB8B7BC10E77EBF0070342D /* rule.cpp */,
+				3DB8B7BD10E77EBF0070342D /* rule.h */,
+				3DB8B7BE10E77EBF0070342D /* simpleBase.cpp */,
+				3DB8B7BF10E77EBF0070342D /* simpleBase.h */,
+				3DB8B7C010E77EBF0070342D /* watch.cpp */,
+			);
+			path = Kext;
+			sourceTree = "<group>";
+		};
+		3DB8B7D210E77F310070342D /* ConsoleTest */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8B7D310E77F310070342D /* Console.cpp */,
+				3DB8B7D410E77F310070342D /* Console.h */,
+				3D2BC21810ECDD6F00CC5C36 /* portNames.h */,
+				3D2BC21910ECDD6F00CC5C36 /* portNames.cpp */,
+			);
+			path = ConsoleTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB8B77110E77C7E0070342D /* watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB8B77810E77C7F0070342D /* Build configuration list for PBXNativeTarget "watch" */;
+			buildPhases = (
+				3DB8B76E10E77C7E0070342D /* Sources */,
+				3DB8B76F10E77C7E0070342D /* Resources */,
+				3DB8B77010E77C7E0070342D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = watch;
+			productName = watch;
+			productReference = 3DB8B77210E77C7E0070342D /* Watch.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+		3DB8B78910E77D6F0070342D /* ConsoleTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB8B78E10E77D8F0070342D /* Build configuration list for PBXNativeTarget "ConsoleTest" */;
+			buildPhases = (
+				3DB8B78710E77D6F0070342D /* Sources */,
+				3DB8B78810E77D6F0070342D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsoleTest;
+			productName = ConsoleTest;
+			productReference = 3DB8B78A10E77D6F0070342D /* ConsoleTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		3DB8B79210E77D9E0070342D /* AppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB8B79810E77D9E0070342D /* Build configuration list for PBXNativeTarget "AppTest" */;
+			buildPhases = (
+				3DB8B78F10E77D9E0070342D /* Resources */,
+				3DB8B79010E77D9E0070342D /* Sources */,
+				3DB8B79110E77D9E0070342D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppTest;
+			productName = AppTest;
+			productReference = 3DB8B79310E77D9E0070342D /* AppTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB8B76510E77C0C0070342D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Moon;
+			};
+			buildConfigurationList = 3DB8B76810E77C0C0070342D /* Build configuration list for PBXProject "watch" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DB8B76310E77C0C0070342D;
+			productRefGroup = 3DB8B77310E77C7E0070342D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB8B77110E77C7E0070342D /* watch */,
+				3DB8B78910E77D6F0070342D /* ConsoleTest */,
+				3DB8B79210E77D9E0070342D /* AppTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB8B76F10E77C7E0070342D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8B7C410E77EBF0070342D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB8B78F10E77D9E0070342D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8B7AB10E77E770070342D /* Main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB8B76E10E77C7E0070342D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8B7C110E77EBF0070342D /* application.cpp in Sources */,
+				3DB8B7C210E77EBF0070342D /* client.cpp in Sources */,
+				3DB8B7C310E77EBF0070342D /* cookie.cpp in Sources */,
+				3DB8B7C510E77EBF0070342D /* firewall.cpp in Sources */,
+				3DB8B7C710E77EBF0070342D /* messages.cpp in Sources */,
+				3DB8B7C810E77EBF0070342D /* rule.cpp in Sources */,
+				3DB8B7C910E77EBF0070342D /* simpleBase.cpp in Sources */,
+				3DB8B7CA10E77EBF0070342D /* watch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB8B78710E77D6F0070342D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8B7D510E77F310070342D /* Console.cpp in Sources */,
+				3DB8B7D610E77F600070342D /* ServerConnection.cpp in Sources */,
+				3D2BC21A10ECDD6F00CC5C36 /* portNames.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB8B79010E77D9E0070342D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8B7AA10E77E770070342D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DB8B7B510E77EBF0070342D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB8B7B610E77EBF0070342D /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB8B76610E77C0C0070342D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		3DB8B76710E77C0C0070342D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_VERSION = 4.2;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		3DB8B77610E77C7E0070342D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				INFOPLIST_FILE = ./Kext/Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULE_NAME = org.janbird.watch.kext;
+				MODULE_START = watch_start;
+				MODULE_STOP = watch_stop;
+				MODULE_VERSION = 1.0.0;
+				PREBINDING = NO;
+				PRODUCT_NAME = Watch;
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		3DB8B77710E77C7E0070342D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = ./Kext/Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULE_NAME = org.janbird.watch.kext;
+				MODULE_START = watch_start;
+				MODULE_STOP = watch_stop;
+				MODULE_VERSION = 1.0.0;
+				PREBINDING = NO;
+				PRODUCT_NAME = Watch;
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		3DB8B78C10E77D6F0070342D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = ConsoleTest;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		3DB8B78D10E77D6F0070342D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = ConsoleTest;
+				SDKROOT = macosx10.6;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		3DB8B79610E77D9E0070342D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = ./AppTest/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AppTest;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		3DB8B79710E77D9E0070342D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = ./AppTest/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AppTest;
+				SDKROOT = macosx10.6;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB8B76810E77C0C0070342D /* Build configuration list for PBXProject "watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB8B76610E77C0C0070342D /* Debug */,
+				3DB8B76710E77C0C0070342D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB8B77810E77C7F0070342D /* Build configuration list for PBXNativeTarget "watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB8B77610E77C7E0070342D /* Debug */,
+				3DB8B77710E77C7E0070342D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB8B78E10E77D8F0070342D /* Build configuration list for PBXNativeTarget "ConsoleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB8B78C10E77D6F0070342D /* Debug */,
+				3DB8B78D10E77D6F0070342D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB8B79810E77D9E0070342D /* Build configuration list for PBXNativeTarget "AppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB8B79610E77D9E0070342D /* Debug */,
+				3DB8B79710E77D9E0070342D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB8B76510E77C0C0070342D /* Project object */;
+}

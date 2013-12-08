@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC18C2EB1854F1C400B1F28C /* Resources.md in Resources */ = {isa = PBXBuildFile; fileRef = DC18C2EA1854F1C300B1F28C /* Resources.md */; };
+		DCE026511854AD50003500B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCE0264F1854AD50003500B5 /* InfoPlist.strings */; };
+		DCE026531854AD50003500B5 /* yafw.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE026521854AD50003500B5 /* yafw.c */; };
+		DCE0265B1854C62F003500B5 /* filters.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE0265A1854C62F003500B5 /* filters.c */; };
+		DCE0265F1854D1AA003500B5 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCE0265E1854D1AA003500B5 /* LICENSE.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC18C2EA1854F1C300B1F28C /* Resources.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resources.md; sourceTree = "<group>"; };
+		DCE026471854AD50003500B5 /* yafw.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yafw.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE0264B1854AD50003500B5 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		DCE0264E1854AD50003500B5 /* yafw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yafw-Info.plist"; sourceTree = "<group>"; };
+		DCE026501854AD50003500B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCE026521854AD50003500B5 /* yafw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = yafw.c; sourceTree = "<group>"; };
+		DCE026541854AD50003500B5 /* yafw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yafw-Prefix.pch"; sourceTree = "<group>"; };
+		DCE0265A1854C62F003500B5 /* filters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = filters.c; sourceTree = "<group>"; };
+		DCE0265C1854C638003500B5 /* filters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filters.h; sourceTree = "<group>"; };
+		DCE0265D1854C640003500B5 /* yafw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yafw.h; sourceTree = "<group>"; };
+		DCE0265E1854D1AA003500B5 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE026421854AD50003500B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE0263C1854AD50003500B5 = {
+			isa = PBXGroup;
+			children = (
+				DCE0264C1854AD50003500B5 /* yafw */,
+				DCE0264D1854AD50003500B5 /* Supporting Files */,
+				DCE026491854AD50003500B5 /* Frameworks */,
+				DCE026481854AD50003500B5 /* Products */,
+				DCE0265E1854D1AA003500B5 /* LICENSE.txt */,
+				DC18C2EA1854F1C300B1F28C /* Resources.md */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE026481854AD50003500B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE026471854AD50003500B5 /* yafw.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE026491854AD50003500B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCE0264A1854AD50003500B5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE0264A1854AD50003500B5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCE0264B1854AD50003500B5 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DCE0264C1854AD50003500B5 /* yafw */ = {
+			isa = PBXGroup;
+			children = (
+				DCE026521854AD50003500B5 /* yafw.c */,
+				DCE0265A1854C62F003500B5 /* filters.c */,
+				DCE0265C1854C638003500B5 /* filters.h */,
+				DCE0265D1854C640003500B5 /* yafw.h */,
+			);
+			path = yafw;
+			sourceTree = "<group>";
+		};
+		DCE0264D1854AD50003500B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE0264E1854AD50003500B5 /* yafw-Info.plist */,
+				DCE0264F1854AD50003500B5 /* InfoPlist.strings */,
+				DCE026541854AD50003500B5 /* yafw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = yafw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DCE026431854AD50003500B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DCE026461854AD50003500B5 /* yafw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE026571854AD50003500B5 /* Build configuration list for PBXNativeTarget "yafw" */;
+			buildPhases = (
+				DCE026411854AD50003500B5 /* Sources */,
+				DCE026421854AD50003500B5 /* Frameworks */,
+				DCE026431854AD50003500B5 /* Headers */,
+				DCE026441854AD50003500B5 /* Resources */,
+				DCE026451854AD50003500B5 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yafw;
+			productName = yafw;
+			productReference = DCE026471854AD50003500B5 /* yafw.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE0263D1854AD50003500B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = yonketa;
+			};
+			buildConfigurationList = DCE026401854AD50003500B5 /* Build configuration list for PBXProject "yafw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCE0263C1854AD50003500B5;
+			productRefGroup = DCE026481854AD50003500B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE026461854AD50003500B5 /* yafw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE026441854AD50003500B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC18C2EB1854F1C400B1F28C /* Resources.md in Resources */,
+				DCE0265F1854D1AA003500B5 /* LICENSE.txt in Resources */,
+				DCE026511854AD50003500B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		DCE026451854AD50003500B5 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE026411854AD50003500B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE026531854AD50003500B5 /* yafw.c in Sources */,
+				DCE0265B1854C62F003500B5 /* filters.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCE0264F1854AD50003500B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE026501854AD50003500B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE026551854AD50003500B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DCE026561854AD50003500B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DCE026581854AD50003500B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yafw/yafw-Prefix.pch";
+				INFOPLIST_FILE = "yafw/yafw-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULE_NAME = com.yonketa.yafw;
+				MODULE_START = yafw_start;
+				MODULE_STOP = yafw_stop;
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = "i386 x86_64 arm64 armv7s armv7";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		DCE026591854AD50003500B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yafw/yafw-Prefix.pch";
+				INFOPLIST_FILE = "yafw/yafw-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULE_NAME = com.yonketa.yafw;
+				MODULE_START = yafw_start;
+				MODULE_STOP = yafw_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = "i386 x86_64 arm64 armv7s armv7";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE026401854AD50003500B5 /* Build configuration list for PBXProject "yafw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE026551854AD50003500B5 /* Debug */,
+				DCE026561854AD50003500B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE026571854AD50003500B5 /* Build configuration list for PBXNativeTarget "yafw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE026581854AD50003500B5 /* Debug */,
+				DCE026591854AD50003500B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE0263D1854AD50003500B5 /* Project object */;
+}
