@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC18C2EB1854F1C400B1F28C /* Resources.md in Resources */ = {isa = PBXBuildFile; fileRef = DC18C2EA1854F1C300B1F28C /* Resources.md */; };
 		DCE026511854AD50003500B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCE0264F1854AD50003500B5 /* InfoPlist.strings */; };
 		DCE026531854AD50003500B5 /* yafw.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE026521854AD50003500B5 /* yafw.c */; };
 		DCE0265B1854C62F003500B5 /* filters.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE0265A1854C62F003500B5 /* filters.c */; };
-		DCE0265F1854D1AA003500B5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DCE0265E1854D1AA003500B5 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC18C2EA1854F1C300B1F28C /* Resources.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resources.md; sourceTree = "<group>"; };
 		DCE026471854AD50003500B5 /* yafw.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yafw.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE0264B1854AD50003500B5 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
 		DCE0264E1854AD50003500B5 /* yafw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yafw-Info.plist"; sourceTree = "<group>"; };
@@ -25,7 +22,6 @@
 		DCE0265A1854C62F003500B5 /* filters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = filters.c; sourceTree = "<group>"; };
 		DCE0265C1854C638003500B5 /* filters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filters.h; sourceTree = "<group>"; };
 		DCE0265D1854C640003500B5 /* yafw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yafw.h; sourceTree = "<group>"; };
-		DCE0265E1854D1AA003500B5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +42,6 @@
 				DCE0264D1854AD50003500B5 /* Supporting Files */,
 				DCE026491854AD50003500B5 /* Frameworks */,
 				DCE026481854AD50003500B5 /* Products */,
-				DCE0265E1854D1AA003500B5 /* LICENSE */,
-				DC18C2EA1854F1C300B1F28C /* Resources.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,8 +154,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC18C2EB1854F1C400B1F28C /* Resources.md in Resources */,
-				DCE0265F1854D1AA003500B5 /* LICENSE in Resources */,
 				DCE026511854AD50003500B5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +280,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = "i386 x86_64 arm64 armv7s armv7";
+				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -310,7 +302,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = "i386 x86_64 arm64 armv7s armv7";
+				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;

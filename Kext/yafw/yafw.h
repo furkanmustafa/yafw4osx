@@ -36,7 +36,7 @@
 #define FIREGATE_TRUE			1
 #define FIREGATE_FALSE			0
 #define FIREGATE_APPLE_HANDLE	0x55495354		// UIST ( ~ UIST + 6 ) Total 7 sequential registrations
-#define FIREGATE_BUNDLEID		"com.yonketa.yafw"
+#define FIREGATE_BUNDLEID		"com.yonketa.yafw.kext"
 
 kern_return_t yafw_start(kmod_info_t * ki, void *d);
 kern_return_t yafw_stop(kmod_info_t *ki, void *d);
