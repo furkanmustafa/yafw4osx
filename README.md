@@ -3,19 +3,30 @@ yafw4osx
 
 Yet-Another Firewall For OSX
 
-This project is simply an attempt to 
+This project is simply an attempt to provide [LittleSnitch](http://www.obdev.at/products/littlesnitch/index.html) like function with more additions, featuring;
+ - in a free (as-in-freedom) way, protected with GPL
+ - application based proxy settings
+ - system wide proxy settings *(included terminal / background processes)*
+ - host based settings
+ - dns inception
+  - regex based *(or at least with some wildcard option)* dns rules (kind of more flexible /etc/hosts function).
+ - statistics
+ - interface for other possible uses
+
+As I am not an expert on Kernel Development, or Socket Filtering, .. please contribute if you can. Otherwise this will take time.
 
 Milestones
 ==========
 *These are just drafts, feel free to suggest changes*
 
-#### Milestone 0.1
+#### Version 0.1
  - yafw.kext
   - `done` Basic Socket Filter Implementation for Darwin/BSD
   - Packet and Byte Counter
+  - A way to read packet/byte statistics from terminal `maybe`
   - Route everything through a fixed local socks proxy (udp, tcp but not icmp)
 
-#### Milestone 0.2
+#### Version 0.2
  - yafw.kext
   - Client Interface for `yafw.app`
   - Intercept DNS requests, have user defined dnses (more flexible than /etx/hosts)
@@ -24,7 +35,7 @@ Milestones
   - Manage DNS rules
   - Manage Local Socks Proxy Configuration
 
-#### Milestone 0.5
+#### Version 0.5
  - yafw.kext
   - Delegate filtering on client `yafw.app`
   - Basic Implementation for Application based rules
@@ -35,5 +46,9 @@ Milestones
   - Create ssh tunnels on demand
   - Able to manage updates in kext
 
-#### Milestone 1.0
-..
+
+ ..
+ 
+
+#### Version 1.0
+ - Providing all features mentioned on top.
