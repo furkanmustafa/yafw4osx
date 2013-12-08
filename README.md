@@ -6,7 +6,7 @@ Yet-Another Firewall For OSX
 This project is simply an attempt to provide [LittleSnitch](http://www.obdev.at/products/littlesnitch/index.html) like function with more additions, featuring;
  - in a free (as-in-freedom) way, protected with GPL
  - application based proxy settings
- - system wide proxy settings *(included terminal / background processes)*
+ - system wide proxy settings *(includes terminal / background processes)*
  - host based settings
  - dns inception
   - regex based *(or at least with some wildcard option)* dns rules (kind of more flexible /etc/hosts function).
