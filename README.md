@@ -13,6 +13,10 @@ This project is simply an attempt to provide [LittleSnitch](http://www.obdev.at/
  - statistics
  - interface for other possible uses
 
+*Why note: I would just willingly pay for a commercial solution, if I could completely trust (see sources, compile it myself) and if I could have an option to extend functionality. This is what [Free Software](https://fsf.org) aims to provide anyway.*
+
+*Licensing note: I am note sure if developing this project under GPL license raises any problems with other licenses used in kernel code etc. this project is developed for. Please let me know if there is a problem, hope it's ok*
+
 As I am not an expert on Kernel Development, or Socket Filtering, .. please contribute if you can. Otherwise this will take time.
 
 Milestones
