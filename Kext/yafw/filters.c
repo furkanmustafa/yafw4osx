@@ -25,8 +25,12 @@
 void yafw_unregistered(sflt_handle handle) {
 	
 }
+
+/*	attach function runs in the calling apps context
+	thanks: John Colanduoni
+	http://stackoverflow.com/questions/11622079/get-owner-of-socket-in-os-x-kernel-extension */
 errno_t yafw_attach(void **cookie, socket_t so) {
-	
+	// app_pid = proc_selfpid()
 	return KERN_SUCCESS;
 }
 void yafw_detach(void *cookie, socket_t so) {

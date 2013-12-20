@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCBF9B261864C71A003229AF /* proc_argv.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBF9B241864C71A003229AF /* proc_argv.c */; };
+		DCBF9B271864C71A003229AF /* proc_argv.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBF9B251864C71A003229AF /* proc_argv.h */; };
 		DCE026511854AD50003500B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCE0264F1854AD50003500B5 /* InfoPlist.strings */; };
 		DCE026531854AD50003500B5 /* yafw.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE026521854AD50003500B5 /* yafw.c */; };
 		DCE0265B1854C62F003500B5 /* filters.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE0265A1854C62F003500B5 /* filters.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DCBF9B241864C71A003229AF /* proc_argv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = proc_argv.c; sourceTree = "<group>"; };
+		DCBF9B251864C71A003229AF /* proc_argv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proc_argv.h; sourceTree = "<group>"; };
 		DCE026471854AD50003500B5 /* yafw.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yafw.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE0264B1854AD50003500B5 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
 		DCE0264E1854AD50003500B5 /* yafw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yafw-Info.plist"; sourceTree = "<group>"; };
@@ -35,9 +39,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DCBF9B231864C71A003229AF /* External */ = {
+			isa = PBXGroup;
+			children = (
+				DCBF9B241864C71A003229AF /* proc_argv.c */,
+				DCBF9B251864C71A003229AF /* proc_argv.h */,
+			);
+			name = External;
+			path = ../External;
+			sourceTree = "<group>";
+		};
 		DCE0263C1854AD50003500B5 = {
 			isa = PBXGroup;
 			children = (
+				DCBF9B231864C71A003229AF /* External */,
 				DCE0264C1854AD50003500B5 /* yafw */,
 				DCE0264D1854AD50003500B5 /* Supporting Files */,
 				DCE026491854AD50003500B5 /* Frameworks */,
@@ -98,6 +113,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCBF9B271864C71A003229AF /* proc_argv.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +193,7 @@
 			files = (
 				DCE026531854AD50003500B5 /* yafw.c in Sources */,
 				DCE0265B1854C62F003500B5 /* filters.c in Sources */,
+				DCBF9B261864C71A003229AF /* proc_argv.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
